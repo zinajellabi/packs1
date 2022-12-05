@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylePacks.css">
+    <script defer src="scriptPacks.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Packs</title>
+    <link rel="icon" href="images/logo.png" "width:20rem">
+</head>
+<body>
+
+    <nav>
+        <div class="navbar1" id="Home">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-img"><img src="images/logo.png" alt=""></span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="navv"><a href="home.html">Home</a></li>
+                    <li class="navv"><a href="#Book">Book</a>
+                    <i class='bx bx-chevron-down arrow book-arrow'></i>
+                    <ul class="book-sub-menu sub-menu">
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                    </ul>        
+                </li>
+                <li class="navv"><a href="pack.html">Packs</a></li>
+                    <li class="navv"><a href="#About">About </a>
+                    <i class='bx bx-chevron-down arrow about-arrow'></i>
+                    <ul class="about-sub-menu sub-menu">
+                        <li class="aboutus"><a href="#">About us</a>
+                            <i class='bx bx-chevron-right arrow aboutus-arrow'></i>
+                            <ul class="aboutus-sub-menu sub-menu">
+                                <li><a href="home.html #History">Our History</a></li>
+                                <li><a href="home.html #Team">Our Team</a></li>
+                                <li><a href="home.html #media">Our Links</a></li>
+                            </ul> 
+                        </li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"> </i>
+                <i class="fas fa-user" id="login-btn"> </i>        
+            </div>
+            
+        
+        </div>
+        </nav>
+
+
+
+        <div class="container1">
+            <div class="form-container1 sign-up-container1">       
+                <i class="fas fa-times" id="form-close"></i>
+                <form action="#" class="form" id="form">
+                    <h1>Create Account</h1>
+                    <div class="social-container1">
+                        <a href="#instag" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+                        <a href="#twitter" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="#links" target="_blank" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <div class="controle">
+                    <input type="text" placeholder="Name" id="name"/>
+                    <div class="icon_si">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small class="small"></small>    
+                    </div>
+                    </div>
+                    <div class="controle">
+                    <input type="text" placeholder="Email" id="email" name="email"/>
+                    <div class="icon_si">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small class="small"></small>    
+                    </div>
+                    </div>
+                    <div class="controle">
+                    <input type="password" placeholder="Password" id="password" name="password"/>
+                    <i class="show fa fa-eye" id="pass"></i>
+                    <div class="icon_si">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small class="small"></small>    
+                    </div>
+                    <small class="small"></small>
+                    </div>
+                    <div class="controle">
+                    <input type="password" placeholder="Password Check" id="password2" name="password2"/>   
+                    <i class="show fa fa-eye" id="pass"></i>  
+                    <div class="icon_si">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small class="small"></small>    
+                    </div>
+                    <small class="small"></small>
+                    </div>
+                    <button class="su" type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container1 sign-in-container1">
+            <i class="fas fa-times" id="formm-close"></i>
+                <form action="#" id="form">
+                    <h1>Sign In</h1>
+                    <div class="social-container1">
+                        <a href="#fb" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+                        <a href="#twit" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="#linkd" target="_blank" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <div class="controle mx-2" id="controle">
+                    <input type="text" placeholder="Email" id="email-si" name="email"/>
+                    <div class="icon_si">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small class="small"></small>
+                    </div>
+                </div>
+                    <div class="controle">
+                    <input type="password" placeholder="Password" id="password-si" name="password"/>
+                    <i class="show fa fa-eye" id="pass"></i>
+                    <div class="icon_si">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small class="small"></small>    
+                </div>
+                    </div>
+                    <a href="#forgot" target="_blank" id="forgot">I Forgot my Password</a>
+                    <button class="si" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container1">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To Keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello!</h1>
+                        <p>Enter your personal details and start new adventure with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<section class="id pack">
+  <div class="container-fluid my-4 ">
+      <div class="text-center">
+        <h1>Our Packs</h1>
+        <p class="lead text-muted">Make the most memories</p>
+      </div>
+      <div class="row my-3 mx-3 align-items-center justify-content-center">
+          <div class="col-sm-6 col-lg-4 py-3  ">
+              <div class="card py-2 px-3 text-center shadow " >
+                  <img src="images/dj.jpg" class="rounded" alt="camels" >
+                  <div class="top-right"style="color: white;">1349€</div>
+                 <div class="card-body py-2 text-start"> 
+                  <h4 class="card-title">Exploring Djerba Island</h4>
+                  <p class="text-muted display-7 mb-2"> Djerba,the dream island , is one of the most marvellous holiday destinations in the Mediterranean. </p>
+                  <div class="rating mb-3"> 
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star far fa-star"></i>
+                 </div>
+                
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore1">
+                      Read more
+                    </button>
+                    <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+                </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 py-3 ">
+              <div class="card py-2 px-3 text-center shadow" >
+                  <img src="images/sidibou.jpg" class="rounded" alt="camels" >
+                  <div class="top-right" style="color: white;">1200€</div>
+                 <div class="card-body py-2 text-start"> 
+                  <h4 class="card-title">Soaking up the ambience of Tunis  </h4>
+                  <p class="text-muted display-7 mb-2">Tunis is the contemporary heartbeat of Tunisia, discover its fascinating back-stories. </p>
+
+                  <div class="rating mb-3"> 
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                </div>
+
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore2">
+                      Read more
+                    </button>
+                    <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+                 </div>
+               </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 py-3 ">
+              <div class="card py-2 px-3 text-center shadow">
+                  <img src="images/hammamet.jpg" class="rounded" alt="camels" >
+                  <div class="top-right" style="color: white;">200€</div>
+              <div class="card-body py-2 text-start"> 
+                  <h4 class="card-title">The White-Painted Medina, Hammamet  </h4>
+                  <p class="text-muted display-7  mb-2">Hammamet is a city with an authentic charm.
+                  Its medina is particularly poetic. </p>
+
+
+                  <div class="rating mb-3">
+                    
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star fas fa-star"></i>
+                   <i class="rating__star far fa-star"></i>
+                   <i class="rating__star far fa-star"></i>
+                </div>
+
+
+
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore3">
+                      Read more
+                    </button>
+                    <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+               </div>
+            </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 py-3 ">
+              <div class="card py-2 px-3 text-center shadow">
+                  <img src="images/desert.jpg" class="rounded" alt="camels" >
+                  <div class="top-right"style="color: white;">1400€</div>
+                 <div class="card-body py-2 text-start"> 
+                  <h4 class="card-title">Enjoying the Desert Citadels  </h4>
+                  <p class="text-muted display-7  mb-2">A unique landscape stretching across much of North Africa, the Sahara Desert evokes images of 
+                    sandy dunes and starry skies. </p>
+                    <div class="rating mb-3"> 
+                      <i class="rating__star fas fa-star"></i>
+                      <i class="rating__star fas fa-star"></i>
+                      <i class="rating__star fas fa-star"></i>
+                      <i class="rating__star fas fa-star"></i>
+                      <i class="rating__star fas fa-star"></i>
+                   </div>
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore4">
+                      Read more
+                    </button>
+                    <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+                </div>
+                </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 py-3 ">
+              <div class="card py-2 px-3 text-center shadow">
+                  <img src="images/tozeur.jpg" class="rounded" alt="camels" >
+                  <div class="top-right"style="color: white;">999€</div>
+                 <div class="card-body py-2 text-start"> 
+                  <h4 class="card-title">Tozeur and the mountain Oasis </h4>
+                  <p class="text-muted display-7 mb-2">The best way to discover in-depth Tozeur, with its beautiful scenery, breathtaking canyons, red rock walls.  </p>
+                  <div class="rating mb-3"> 
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star fas fa-star"></i>
+                    <i class="rating__star far fa-star"></i>
+                 </div>
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore5">
+                      Read more
+                    </button>
+                    <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+                    
+                 </div>
+          </div>
+       </div>
+       <div class="col-sm-6 col-lg-4 py-3 ">
+          <div class="card py-2 px-3 text-center shadow">
+              <img src="images/ain.jpg" class="rounded" alt="camels" >
+              <div class="top-right"style="color: white;">599€</div>
+          <div class="card-body py-2 text-start"> 
+              <h4 class="card-title">Tabarka and Aïn Draham </h4>
+              <p class="text-muted display-7 mb-2"> A paradise for outdoor activities and superb sandy beaches for holidaymakers. </p>
+              <div class="rating mb-3"> 
+                <i class="rating__star fas fa-star"></i>
+                <i class="rating__star fas fa-star"></i>
+                <i class="rating__star fas fa-star"></i>
+                <i class="rating__star fas fa-star"></i>
+                <i class="rating__star fas fa-star"></i>
+             </div>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ReadMore6">
+                  Read more
+                </button>
+                <a href="#pack" class="btn btn-outline-warning  bx-pull-right">Book now!</a>
+           </div>
+          </div>
+        
+   </div>
+  </div>
+</section>
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="ReadMore1" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/synagogue.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>Since the island is so filled with culture and history, the first day we will visit one of the oldest Jewish Synagogues in the
+                       world, La Ghriba , dating back to the year 586 BCE.  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                 <img src="images/hood.jpg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>Next day we will visit DJERBAHOOD, which is a place created and funded by artists from all around the world to transform the village 
+                      into an open-sky museum. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                  <img src="images/airplane.png" width="50" height="50">
+                 
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/quad.webp" width="250" height="200">
+                  </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>We will have a Quad Bike tour to explore the island, where we will enjoy some historical places and most famous legends of the island,
+                       while enjoying its unique natural views.   
+                       </p>
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/crocodile.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The last day we will attend the feeding of crocodiles at the Djerba Explore centre! This leisure park is home to a Nile crocodile farm. The reptiles are
+                       fed in front of visitors on Wednesdays.</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2-->
+<div class="modal fade" id="ReadMore2" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/mdina.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>We're starting this journey by visiting one of the best islamic heritages in the world: the Old Medina of Tunis, a UNESCO heritage site,We'll discover the history of this place through its narrow streets lined with 
+                      traditional workshops, we will visit the Covered Souks,Zitouna Mosque, Bab Bhar, Saint Croix Church
+                      ... </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/cart.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>We're starting the second day right at the center of everything, Carthage, capital of the ancient great Carthaginian Empire, the first Republic
+                       in History, that ruled the Mediterranean for centuries and blessed the world with countless gifts. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                  <img src="images/airplane.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/cafe.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>Next we're heading to none other than the Blue and White City, Sidi Bou Said, we'll wander freely among the stone paved alleys and streets, enjoying the 
+                      breathtaking views from the tops, the cool Mediterranean breeze, a little taste of the famous Bambalouni
+                       in the Café Des Délices.</p>
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/djem.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>On this day we will go back to Tunis,during the road we will have our last stop in El Djem where we will visit the very
+                       well preserved Roman Amphitheater of El Djem  
+                       and learn more about its history.
+                          </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3-->
+<div class="modal fade" id="ReadMore3" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/ham.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">We will will start with a busy day in Hammamet, well known for its beaches and its party atmosphere.
+                    We can visit the Ottoman Military Tour of Hammamet, The Medina that looks like a painting, buy some souvenirs and why not swim if we feel like it!
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src=".images/parcham.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>We will go to the animal park, wildlife lovers young and old will appreciate the diversity of species in residence at this park in the town of Yasmine Hammamet. 
+                       </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                  <img src="images/airplane.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/takrouna.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>Next day we will go on a short road trip to visit Amazigh Village. Of course, we're going to witness the Majestic Roman Aqueducts, which
+                      are the longest in the world, and pay a visit to a different side of the place. Once we arrive, we'll stop in Takrouna, an Amazigh village built on top of a
+                       large fossilized rock. </p>     
+
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/zriba.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>For the last day, we will go to our second Amazighi Village which is more in the heart of nature: Zriba Olia, which is one of the Ghost Villages of the world since all its habitants
+                       left it by the past Century, leaving an intact city behind them! The nature and the sunset there are breathtaking. </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 4-->
+<div class="modal fade" id="ReadMore4" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/douiret.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">
+                    <p> We're going to start our beautiful adventure in the South with a visit to  an Amazigh Village in the desert where we will witness a 
+                      legendary sunset and spend the night in a traditional troglodyte hotel in Douiret where we will have a shooting with a white dress code. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/chenini.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>During the morning of the next day, we will enjoy a legendary sunrise from the top of the Amazigh Village Douiret,After a traditional breakfast,
+                       we will go to Chenini Village, the biggest Fortified Amazigh Village in Tunisia, built on the top of a mountain!. 
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                  <img src="images/airplane.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/ksar.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The third day will be magical, whith a visit to the superb Chenini which is on the list, being one of the Star Wars’ moons, we won't miss it. Then, there is Ksar Ghilane!  We also gonna spend a folkloric night while camping
+                       in the heart of the desert and amidst the hospitality of the locals.</p>
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/matmata.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The journey will end  with a halt at Matmata, one of the cities that most inspired Ibn Khaldoun.</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 5-->
+<div class="modal fade" id="ReadMore5" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/dogga.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The first day, We journey west to Dougga stopping en route to admire the small town of Testour established in the 17th century by Jewish and Muslim 
+                      communities who came here from Andalucia to escape the Spanish Inquisition then We stay local today to explore Kairouan, the fourth holiest city of Islam. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/chebika.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p> An early departure this morning for our long drive south to Tozeur starting  
+                      with a visit to Chebika, where a wadi runs down the side of a steep mountain, forming waterfalls and rivulets where frogs have made their home. .
+                    
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                <img src="images/airplane.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/tamerza.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>
+                      then we will visit The old village of Tamerza abandoned like a ghost village, looks out at a spectacular mountainous landscapeits,lush oasis
+                       is fed by a towering waterfall.
+                     </p>
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/mides.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p> Last but not least, Midès, tucked away into a dizzyingly high canyon, boasts spectacular views. you’ll get to explore the real-life 
+                      filming locations of your favorite intergalactic epic, travel between sights in a private, air-conditioned 4WD vehicle.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 6-->
+<div class="modal fade" id="ReadMore6" data-bs-backdrop="static"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content" >
+      <div class="modal-header ">
+        <h5 class="modal-title" style="text-align: center!important;">Detailed itinerary</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="timeline"> 
+              <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon ">
+                  <img src="images/traveler-with-a-suitcase.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/aguille.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content ">
+                  <div class="timeline__event__title">
+                    Day 1
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>We're gonna start our journey in Tabarka, renowned for the richness of its seabeds, with taking a boat trip to the surrounding rocky coves,
+
+                         the best way to discover spectacular sites and rich marine life.  </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                  <img src="images/camera.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/jazz.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 2
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The next day,we are going to enjoy one of the summer festivals: the Tabarka Sky Lantern Festival or the Tabarka Jazz Festival.  
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                  <img src="images/airplane.png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/bnimtir.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 3
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>The third day,  
+                      we will sleep in a cabin on stilts facing the reservoir lake at Beni Mtir Outdoors, a camping center near Aïn Draham.</p>
+                  </div>
+            
+                </div>
+              </div>
+              <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                  <img src="images/road-trip (1).png" width="50" height="50">
+            
+                </div>
+                <div class="timeline__event__date">
+                  <img src="images/drahem.jpeg" width="250" height="200">
+                </div>
+                <div class="timeline__event__content">
+                  <div class="timeline__event__title">
+                    Day 4
+                  </div>
+                  <div class="timeline__event__description">
+                    <p>This morning, we will go hiking around the village of Aïn Draham and we will encounter streams, waterfalls or reservoir lakes.</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      </div>
+    
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Modal ends here-->
+
+  <footer>
+    <div class="content-footer">
+        <div class="top">
+            <div class="logo-name"> <img src="images/logo.png" alt=""></div>
+            <div class="media" id="media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>  
+        <hr>   
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link-name"><span>Quick Links</span></li>
+                    <li><a href="#Book">Book</a></li>
+                    <li><a href="#About us">About Us</a></li>
+                    <li><a href="#Our_Team">Our Team</a></li>
+                    <li><a href="#Our History">Our History</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
+                </ul>
+                
+                <ul class="box">
+                    <li class="link-name">Contact Info</li>
+                    <li><a href="#"><i class="fas fa-phone"></i> +216 50 541 977</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> +216 70 852 941</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i> tuniversal2022@gmail.com</a></li>
+                    <li><a href="#"><i class="fas fa-map"></i> Lac 1,Tunis 2097</a></li>
+                </ul>
+            </div>    
+    </div>
+    <div class="bottom-details">
+    <div class="bottom-text">
+        <span class="copyrights">Created by <a href="#"> TUNIVERSAL </a> | all rights reserved</span>
+        <span class="policty-terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+        </span>
+    </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
